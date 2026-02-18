@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+
+  <PropertyGroup>
+    <Version>0.0.0.1</Version>
+    <TargetFramework>net10.0</TargetFramework>
+    <Description>Weather forecast display for FFXIV zones</Description>
+    <PackageProjectUrl>https://github.com/Le-Vagabond-gh/ffxiv_weatherwane</PackageProjectUrl>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+    <Configurations>Debug;ExportDebug;ExportRelease;Release</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(GITHUB_ACTIONS)' != 'true'">
+    <OutputPath>E:\FINAL FANTASY XIV\plugins\weatherwane\</OutputPath>
+  </PropertyGroup>
+
+</Project>
