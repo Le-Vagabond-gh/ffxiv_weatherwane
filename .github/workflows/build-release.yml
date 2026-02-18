@@ -1,3 +1,4 @@
+# WeatherWane CI
 name: Build and Release
 
 on:
