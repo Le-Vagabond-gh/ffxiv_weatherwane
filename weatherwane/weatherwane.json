@@ -1,0 +1,24 @@
+{
+    "Author": "Le Vagabond",
+    "Name": "WeatherWane",
+    "InternalName": "weatherwane",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Weather forecast display for selected FFXIV zones",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Le-Vagabond-gh/ffxiv_weatherwane",
+    "DalamudApiLevel": 14,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Never be caught off guard by the weather again!",
+    "Tags": [
+        "Weather",
+        "Forecast",
+        "Gathering"
+    ],
+    "CategoryTags": [
+        "Utility"
+    ],
+    "AcceptsFeedback": true
+}
